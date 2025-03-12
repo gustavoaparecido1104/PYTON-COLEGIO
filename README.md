@@ -1,2 +1,2 @@
-# PYTON-COLEGIO
+# PYTHON-COLEGIO
 pyton colegio
