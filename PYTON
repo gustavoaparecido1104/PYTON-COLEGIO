@@ -1,0 +1,21 @@
+variaveis = {}
+
+print("Bem-vindo ao cadastrar de variaveis!")
+print("voce pode cadastrar quntas variaveis quiser. Digite'sair' para finalizar.")
+
+while True:
+    nome =input("Digite o nome da variavel: ")
+   
+    if nome.lower() == 'sair':
+        break
+   
+    valor =input(F"Digite o valor para {nome}:  ")
+   
+    variaveis[nome] = valor
+
+
+print("\nvariaveis cadastradas:")
+for nome,valor in variaveis.itens():
+    print(f"{nome} = {valor} ")
+   
+    print("\nfim do programa! Obrigado por utilizar. ")
